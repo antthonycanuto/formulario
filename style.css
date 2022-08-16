@@ -3,12 +3,13 @@ body {
     background-color: #ecebec;
 }
 
+
 * {
     box-sizing: border-box;
 }
 
 .formularioLogin {
-    background-color: white;
+    background-color: rgb(224, 28, 28);
     width: 400px;
     margin: 150px auto;
 }

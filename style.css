@@ -12,6 +12,7 @@ body {
     background-color: white;
     width: 400px;
     margin: 150px auto;
+    border-radius: 15px;
 }
 
 form {

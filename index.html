@@ -5,14 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&amp;family=Raleway:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
   </head>
-    <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
   <body>
+    <div class="formularioLogin">
+      <form>
+        <h3>sign in</h3>
+        <div class="input-container">
+          <input type="text" placeholder="Username" />
+          <i data-feather="user"></i>
+        </div>
+        <div class="input-container">
+          <input type="password" placeholder="Password" />
+          <i data-feather="lock"></i>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" name="remenber" id="remenber" />
+                <label for="remenber">Remenber me</label>
+            </div><a href="#">Reset Password</a>
+        </div>
+        <input type="submit" value="Sign In" />
+      </form>
+    </div>
 
-        
-    
-    
     <!-- feather icont -->
     <script>
       feather.replace();
